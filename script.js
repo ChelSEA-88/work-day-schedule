@@ -53,10 +53,10 @@ $(document).ready(function() {
       
 }
   
-    hourUpdater();
+hourUpdater();
 
   
-    // set up interval to check if current time needs to be updated
+// set up interval to check if current time needs to be updated
     // which means execute hourUpdater function every 15 seconds
     var interval = setInterval(hourUpdater(), 15000);
 
